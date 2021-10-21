@@ -11,7 +11,9 @@ header {
     color: White;
     font-size: 50px;
     position: fixed;
-    text-shadow: 3px -4px 3px rgba(206, 229, 0, 1);
+    text-shadow: 3px -4px 3px rgba(255, 139, 139, 1),
+     3px -4px 3px rgb(155, 37, 37);
+    
 }
 
 body {
@@ -32,6 +34,9 @@ body {
     font-size: 25px;
     display: inline-block;
     margin-top: 500px;
+    -webkit-box-shadow: 5px 5px 15px 5px #6D0213; 
+    box-shadow: 5px 5px 15px 5px #6D0213;
+    text-shadow: 11px -12px 6px rgba(132, 139, 255, 1)
 }
 
 
@@ -42,7 +47,7 @@ li {
 }
 
 li:hover {
-    color:rgba(206, 229, 0, 1);
+    color:rgba(155, 37, 37);
     cursor: pointer;
 }
 
