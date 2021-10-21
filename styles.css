@@ -14,6 +14,11 @@ header {
     text-shadow: 5px -4px 2px rgb(216, 21, 21);
     
 }
+header.hover {
+    
+}
+
+
 
 body {
     background-color: black;
@@ -35,7 +40,7 @@ body {
     margin-top: 500px;
     -webkit-box-shadow: 5px 5px 15px 5px #d41616; 
     box-shadow: 5px 5px 15px 5px #d41616;
-    text-shadow: 11px -12px 6px rgb(21, 31, 214)
+    text-shadow: 11px -12px 6px rgb(21, 31, 214);
 }
 
 
@@ -54,3 +59,22 @@ li:active {
     transform: scale(.9,.9);
     cursor: pointer;
 }
+
+
+footer {
+    max-height: 20px;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+button {
+    border-radius: 25px;
+    font-family: 'Trade Winds', cursive;
+    justify-content: space-between;
+    margin: 15px;
+    background: none;
+    color: white;
+    text-shadow: 5px -4px 2px rgb(216, 21, 21);
+}
+
