@@ -1,8 +1,12 @@
-
+* {
+    display: inline-block;
+    box-sizing: border-box;
+}
 
 
 header {
     text-align: center;
+    padding-left: 300px;
     font-family:'Trade Winds', cursive;
     color: White;
     font-size: 50px;
@@ -12,12 +16,27 @@ header {
 
 body {
     background-color: black;
-    display: flex;
+    display: inline-block;
 }
+
+
+.rex {
+    max-width: 2000px;
+    display: inline-block;
+}
+
+.sidebar {
+    border: white 2px solid;
+    width: 500px;
+    font-size: 25px;
+    display: inline-block;
+}
+
 
 li {
     font-family: 'Trade Winds', cursive;
     color: white;
+    display: flex;
 }
 
 li:hover {
@@ -28,8 +47,4 @@ li:hover {
 li:active {
     transform: scale(.9,.9);
     cursor: pointer;
-}
-
-.rex {
-    max-width: 1000px;
 }
