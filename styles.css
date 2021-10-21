@@ -15,7 +15,7 @@ header {
     
 }
 header.hover {
-    
+
 }
 
 
@@ -69,11 +69,12 @@ footer {
 }
 
 button {
+    align-items: center;
     border-radius: 25px;
     font-family: 'Trade Winds', cursive;
     justify-content: space-between;
     margin: 15px;
-    background: none;
+    background-color:#3f509c ;
     color: white;
     text-shadow: 5px -4px 2px rgb(216, 21, 21);
 }
