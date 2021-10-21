@@ -19,3 +19,7 @@ ul {
     font-family: 'Trade Winds', cursive;
     color: white;
 }
+
+.rex {
+    max-width: fit-content;
+}
