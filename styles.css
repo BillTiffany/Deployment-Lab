@@ -20,6 +20,14 @@ ul {
     color: white;
 }
 
+ul:hover {
+    color:rgba(206, 229, 0, 1);
+}
+
+ul:active {
+    transform: scale(.9,.9);
+}
+
 .rex {
     max-width: 1000px;
 }
