@@ -6,7 +6,7 @@
 
 header {
     text-align: center;
-    padding-left: 300px;
+    padding-left: 500px;
     font-family:'Trade Winds', cursive;
     color: White;
     font-size: 50px;
@@ -17,6 +17,7 @@ header {
 body {
     background-color: black;
     display: inline-block;
+    background-image: url("https://www.filmgarb.com/uploads/diedrich_bader-film-rex-napoleon_dynamite-bottoms-rex_kwon_do_pants.jpg");
 }
 
 
@@ -30,6 +31,7 @@ body {
     width: 500px;
     font-size: 25px;
     display: inline-block;
+    margin-top: 500px;
 }
 
 
